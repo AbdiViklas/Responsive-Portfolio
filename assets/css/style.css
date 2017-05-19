@@ -278,7 +278,9 @@
 
 /* Media queries */
 	@media screen and (max-width: 980px) {
-		
+		#navContainer, main {
+			width: 70%;
+		}
 	}
 
 	@media screen and (max-width: 768px) {
