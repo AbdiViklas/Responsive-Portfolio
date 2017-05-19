@@ -273,3 +273,15 @@ footer p {
 }
 
 /* I used "top: 50%; transform: translateY(-50%)", and the result appeared to be below center. The above looks right. Why? It's not the footer's 5px border-top, is it?*/
+
+@media screen and (max-width: 980px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 640px) {
+	
+}
