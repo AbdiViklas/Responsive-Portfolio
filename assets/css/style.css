@@ -6,284 +6,285 @@
 
 /* all-purpose rules */
 
-.floatLeft {
-	float: left;
-}
+	.floatLeft {
+		float: left;
+	}
 
-.floatRight {
-	float: right;
-}
+	.floatRight {
+		float: right;
+	}
 
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-}
+	.clearfix:after {
+	  content: "";
+	  display: block;
+	  clear: both;
+	}
 
-.center {
-	margin: auto;
-}
+	.center {
+		margin: auto;
+	}
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	color: #4aaaa5;
-	margin: 0px;
-}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Georgia', Times, 'Times New Roman', serif;
+		color: #4aaaa5;
+		margin: 0px;
+	}
 
 
 
-a {
-	text-decoration: none;
-	color: #777;
-	font-weight: bold;
-}
+	a {
+		text-decoration: none;
+		color: #777;
+		font-weight: bold;
+	}
 
-body {
-	margin: 0;
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url(../images/textured_paper.png);
-	background-color: #eee;
-	font-size: 1em;
-	color: #777
-}
+	body {
+		margin: 0;
+		font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+		background-image: url(../images/textured_paper.png);
+		background-color: #eee;
+		font-size: 1em;
+		color: #777
+	}
 
 /* nav bar */
 
-nav {
-	background: #fff;
-	border-bottom: 2px solid #ccc;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	width: 100%;
-}
+	nav {
+		background: #fff;
+		border-bottom: 2px solid #ccc;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+	}
 
-#navContainer {
-	width: 960px;
-	margin: auto;
-}
+	#navContainer {
+		width: 960px;
+		margin: auto;
+	}
 
-#logo {
-	background-color: #4aaaa5;
-	color: white;
-	font-weight: bold;
-	padding: 20px;
-}
+	#logo {
+		background-color: #4aaaa5;
+		color: white;
+		font-weight: bold;
+		padding: 20px;
+	}
 
-#navLinks {
-	padding: 20px;
-}
+	#navLinks {
+		padding: 20px;
+	}
 
-#leftButton {
-	padding: 0 10px 0 0;
-}
+	#leftButton {
+		padding: 0 10px 0 0;
+	}
 
-#midButton {
-	padding: 0 10px;
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
-}
+	#midButton {
+		padding: 0 10px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
 
-#rightButton {
-	padding: 0 0 0 10px;
-}
+	#rightButton {
+		padding: 0 0 0 10px;
+	}
 
 /* main content */
 
-main {
-	clear: both;
-	width: 960px;
-	margin: 100px auto 85px auto;
-	overflow: auto;
-}
+	main {
+		clear: both;
+		width: 960px;
+		margin: 100px auto 85px auto;
+		overflow: auto;
+	}
 
-.content {
-	width: 650px;
-}
+	.content {
+		width: 650px;
+	}
 
-.sidebar {
-	width: 270px;
-}
+	.sidebar {
+		width: 270px;
+	}
 
-.box {
-	background: white;
-	padding: 30px;
-	border: 1px solid #ddd;
-}
+	.box {
+		background: white;
+		padding: 30px;
+		border: 1px solid #ddd;
+	}
 
-.hrBig, .hrLittle {
-	background: #ccc;
-	width: 100%;
-	margin: 20px 0px 20px 0px;
-}
+	.hrBig, .hrLittle {
+		background: #ccc;
+		width: 100%;
+		margin: 20px 0px 20px 0px;
+	}
 
-.hrBig {
-	height: 3px;
-}
+	.hrBig {
+		height: 3px;
+	}
 
-.hrLittle {
-	height: 2px;
-}
+	.hrLittle {
+		height: 2px;
+	}
 
-#headshot {
-	width: 200px;
-	padding-right: 10px;
-}
+	#headshot {
+		width: 200px;
+		padding-right: 10px;
+	}
 
 /* for portfolio.html */
 
-.row {
-	width: 100%;
-	text-align: justify;
-}
+	.row {
+		width: 100%;
+		text-align: justify;
+	}
 
-.row:after {
-	content: '';
-	width: 100%;
-	display: inline-block;
-}
+	.row:after {
+		content: '';
+		width: 100%;
+		display: inline-block;
+	}
 
-.portfolioBox {
-	height: 200px;
-	width: 275px;
-	position: relative;
-	display: inline-block;
-	margin-bottom: 20px;
-}
+	.portfolioBox {
+		height: 200px;
+		width: 275px;
+		position: relative;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
 
-.portfolioLabel {
-	width: 100%;
-	padding: 10px;
-	position: absolute;
-	top: 145px;
-	text-align: center;
-	background: #4aaaa5;
-	color: white;
-	font-weight: normal;
-}
+	.portfolioLabel {
+		width: 100%;
+		padding: 10px;
+		position: absolute;
+		top: 145px;
+		text-align: center;
+		background: #4aaaa5;
+		color: white;
+		font-weight: normal;
+	}
 
-#hangman {
-	background-image: url(../images/hangman.jpg);
-}
+	#hangman {
+		background-image: url(../images/hangman.jpg);
+	}
 
-#rpg {
-	background-image: url(../images/rpg.jpg);
-}
+	#rpg {
+		background-image: url(../images/rpg.jpg);
+	}
 
-#trivia {
-	background-image: url(../images/trivia.jpg);
-}
+	#trivia {
+		background-image: url(../images/trivia.jpg);
+	}
 
-#rutgers {
-	background-image: url(../images/rutgers.jpg);
-}
+	#rutgers {
+		background-image: url(../images/rutgers.jpg);
+	}
 
-#rockPaperScissors {
-	background-image: url(../images/rockPaperScissors.jpg);
-}
+	#rockPaperScissors {
+		background-image: url(../images/rockPaperScissors.jpg);
+	}
 
 /* for contact.html */
 
-label {
-	display: block;
-	margin-top: 15px;
-}
+	label {
+		display: block;
+		margin-top: 15px;
+	}
 
-input, textarea {
-	width: 100%;
-	display: block;
-	margin: 5px 0;
-	padding: 10px;
-	border: 1px solid #ccc;
-}
+	input, textarea {
+		width: 100%;
+		display: block;
+		margin: 5px 0;
+		padding: 10px;
+		border: 1px solid #ccc;
+	}
 
-input {
-	min-height: 30px;
-}
+	input {
+		min-height: 30px;
+	}
 
-textarea {
-	min-height: 150px;
-}
+	textarea {
+		min-height: 150px;
+	}
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #ccc;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #ccc;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #ccc;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #ccc;
-}
-::-ms-input-placeholder { /* Microsoft Edge */
-   color:    #ccc;
-}
+	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	    color:    #ccc;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #ccc;
+	   opacity:  1;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:    #ccc;
+	   opacity:  1;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	   color:    #ccc;
+	}
+	::-ms-input-placeholder { /* Microsoft Edge */
+	   color:    #ccc;
+	}
 
-button {
-	margin: 20px 0;
-	background: #4aaaa5;
-	border: none;
-	color: white;
-	padding: 10px 30px;
-	font-size: 100%;
-	cursor: pointer;
-}
+	button {
+		margin: 20px 0;
+		background: #4aaaa5;
+		border: none;
+		color: white;
+		padding: 10px 30px;
+		font-size: 100%;
+		cursor: pointer;
+	}
 
 /* "connect" sidebar */
 
-#iconBox {
-	text-align: justify;
-	width: 100%;
-}
+	#iconBox {
+		text-align: justify;
+		width: 100%;
+	}
 
-.icon {
-	height: auto;
-	width: 60px;
-	display: inline-block;
-}
+	.icon {
+		height: auto;
+		width: 60px;
+		display: inline-block;
+	}
 
-/* Hey, is it just me, or is the StackOverflow icon displaying bigger than the others? like by 1px or so? But the files are the same dimensions, all 128x128, and they're being treated the same above. */
+	/* Hey, is it just me, or is the StackOverflow icon displaying bigger than the others? like by 1px or so? But the files are the same dimensions, all 128x128, and they're being treated the same above. */
 
-#iconBox:after {
-	content: '';
-	width: 100%;
-	display: inline-block;
-}
+	#iconBox:after {
+		content: '';
+		width: 100%;
+		display: inline-block;
+	}
 
-footer {
-	clear: both;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	height: 80px;
-	width: 100%;
-	border-top: 5px solid #4aaaa5;
-	background: #666;
-	color: #ccc;
-	text-align: center;
-}
+	footer {
+		clear: both;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 80px;
+		width: 100%;
+		border-top: 5px solid #4aaaa5;
+		background: #666;
+		color: #ccc;
+		text-align: center;
+	}
 
-footer p {
-	position: relative;
-	top: 40%;
-  transform: translateY(-60%);
-}
+	footer p {
+		position: relative;
+		top: 40%;
+	  transform: translateY(-60%);
+	}
 
-/* I used "top: 50%; transform: translateY(-50%)", and the result appeared to be below center. The above looks right. Why? It's not the footer's 5px border-top, is it?*/
+	/* I used "top: 50%; transform: translateY(-50%)", and the result appeared to be below center. The above looks right. Why? It's not the footer's 5px border-top, is it?*/
 
-@media screen and (max-width: 980px) {
-	
-}
+/* Media queries */
+	@media screen and (max-width: 980px) {
+		
+	}
 
-@media screen and (max-width: 768px) {
-	
-}
+	@media screen and (max-width: 768px) {
+		
+	}
 
-@media screen and (max-width: 640px) {
-	
-}
+	@media screen and (max-width: 640px) {
+		
+	}
