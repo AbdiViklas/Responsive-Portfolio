@@ -295,7 +295,7 @@
 
 		.portfolioBox {
 			width: 100%;
-			margin: 20px auto 20px auto;
+			margin: 20px auto;
 			display: block;
 		}
 	}
@@ -308,11 +308,18 @@
 		.content, .sidebar {
 			width: 100%;
 			display: block;
+			margin: 20px auto;
 		}
 
 		.icon {
 			float: left;
 			margin: 2px;
+		}
+
+		.portfolioBox {
+			width: 47%;
+			margin: 10px auto;
+			display: inline-block;
 		}
 	}
 
