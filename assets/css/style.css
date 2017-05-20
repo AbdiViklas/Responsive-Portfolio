@@ -282,8 +282,12 @@
 			width: 70%;
 		}
 
-		#aboutContent {
+		.content {
 			width: 55%;
+		}
+
+		.sidebar {
+			width: 40%;
 		}
 	}
 
