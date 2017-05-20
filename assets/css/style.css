@@ -289,6 +289,12 @@
 		.sidebar {
 			width: 40%;
 		}
+
+		.portfolioBox {
+			width: 100%;
+			margin: 20px auto 20px auto;
+			display: block;
+		}
 	}
 
 	@media screen and (max-width: 768px) {
