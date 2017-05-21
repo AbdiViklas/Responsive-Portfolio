@@ -37,7 +37,6 @@
 	a {
 		text-decoration: none;
 		color: #777;
-		font-weight: bold;
 	}
 
 	body {
@@ -324,5 +323,38 @@
 	}
 
 	@media screen and (max-width: 640px) {
-		
+		main {
+			margin-top: 120px;
+		}
+
+		#navContainer {
+			width: 100%;
+			text-align: center;
+		}
+
+		#logo {
+			width: 100%;
+			display: block;
+		}
+
+		#navLinks {
+			display: block;
+			text-align: justify;
+			width: 100%;
+			padding: 15px;
+		}
+
+		#leftButton, #midButton, #rightButton {
+			display: inline-block;
+			text-align: center;
+			width: 33.3%;
+			height: auto;
+			padding: 0;
+		}
+
+/*		.navButton:after {
+			content: '';
+			width: 100%;
+			display: inline-block;
+		}*/
 	}
