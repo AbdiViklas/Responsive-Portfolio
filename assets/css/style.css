@@ -32,6 +32,7 @@
 
 	p {
 		line-height: 1.5em;
+		margin: 1em 0;
 	}
 
 	a {
@@ -272,8 +273,8 @@
 
 	footer p {
 		position: relative;
-		top: 40%;
-	  transform: translateY(-60%);
+		top: 35%;
+	  transform: translateY(-65%);
 	}
 
 	/* I used "top: 50%; transform: translateY(-50%)", and the result appeared to be below center. The above looks right. Why? It's not the footer's 5px border-top, is it?*/
@@ -352,9 +353,9 @@
 			padding: 0;
 		}
 
-/*		.navButton:after {
-			content: '';
+		#headshot {
+			float: none;
 			width: 100%;
-			display: inline-block;
-		}*/
+		}
+
 	}
